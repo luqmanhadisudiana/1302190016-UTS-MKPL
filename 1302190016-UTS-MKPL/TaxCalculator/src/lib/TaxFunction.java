@@ -37,7 +37,7 @@ public class TaxFunction {
 			return 0;
 		}else {
 			return tax;
-		}
+		
 			 
 	}
 	
