@@ -25,6 +25,8 @@ public class Employee {
 		Female
 	}
 	private Gender gender; //true = Laki-laki, false = Perempuan
+
+	private Person dataOrang;
 	
 	private int monthlySalary;
 	private int otherMonthlyIncome;
