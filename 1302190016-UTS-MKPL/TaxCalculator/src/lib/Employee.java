@@ -7,6 +7,7 @@ import java.util.List;
 
 public class Employee {
 
+	private static final Gender Gender = null;
 	private String employeeId;
 	private String firstName;
 	private String lastName;
@@ -45,7 +46,7 @@ public class Employee {
 		this.monthJoined = monthJoined;
 		this.dayJoined = dayJoined;
 		this.isForeigner = isForeigner;
-		this.gender = gender;
+		this.gender = Gender;
 		
 		childNames = new LinkedList<String>();
 		childIdNumbers = new LinkedList<String>();
